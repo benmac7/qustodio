@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Qustodio Setup",
+        "description": "Enter your Qustodio credentials",
+        "data": {
+          "username": "Username (Email)",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Qustodio API",
+      "invalid_auth": "Invalid authentication credentials",
+      "unknown": "Unexpected error occurred"
+    },
+    "abort": {
+      "already_configured": "Qustodio is already configured"
+    }
+  }
+}
